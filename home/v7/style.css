@@ -1,5 +1,5 @@
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700);
 .stopfade { 
    opacity: .5;
 }
@@ -84,7 +84,7 @@ input:checked ~ .okglass h2 {
 @keyframes blur { to { -webkit-filter: blur(5px); } }
 
 body, .reality { 
-      background-image: url(http://s12.postimg.org/j9szn2jpp/2016_02_19.png);
+      background-image: url(https://s12.postimg.org/j9szn2jpp/2016_02_19.png);
 
 
  background-repeat: no-repeat;
@@ -241,7 +241,7 @@ a { color: inherit; }
 a {
     text-decoration:none;
 }
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 /* Buttons Row nÂ°1 */
 
@@ -2082,7 +2082,7 @@ footer i:nohover{
 .discl{
   text-align: left;
   font-size: 10px;}
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 @import url(//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css);
 
 .more{

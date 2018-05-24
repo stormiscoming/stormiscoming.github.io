@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow: 
 
-Sitemap: http://www.ccloudtv.org/sitemap.xml
+Sitemap: https://www.ccloudtv.org/sitemap.xml

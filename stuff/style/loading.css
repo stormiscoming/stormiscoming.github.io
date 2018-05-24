@@ -125,7 +125,7 @@ a {
 .standby {
   -webkit-animation: permanentAppearance 3s 1s forwards;
           animation: permanentAppearance 3s 1s forwards;
-  background: url("http://s16.postimg.org/mmepkguxx/Clouds_All_Around2400_1500_jpg_pass.jpg") no-repeat 0 0;
+  background: url("https://s16.postimg.org/mmepkguxx/Clouds_All_Around2400_1500_jpg_pass.jpg") no-repeat 0 0;
   background-position: 50% 50%;
   background-size: cover;
   opacity: 0;

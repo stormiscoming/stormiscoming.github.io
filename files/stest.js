@@ -3,13 +3,13 @@ if (typeof window.Sheetsee === 'undefined') window.Sheetsee = {}; window.Sheetse
 },{"lodash.assign":3,"sheetsee-charts":28,"sheetsee-core":31,"sheetsee-maps":32,"sheetsee-tables":59}],2:[function(require,module,exports){
 /*!
 ICanHaz.js version 0.10.2 -- by @HenrikJoreteg
-More info at: http://icanhazjs.com
+More info at: https://icanhazjs.com
 */
 (function () {
 /*
   mustache.js — Logic-less templates in JavaScript
 
-  See http://mustache.github.com/ for more info.
+  See https://mustache.github.com/ for more info.
 */
 
 var Mustache = function () {
@@ -556,12 +556,12 @@ var Mustache = function () {
 
 },{}],3:[function(require,module,exports){
 /**
- * Lo-Dash 2.1.0 (Custom Build) <http://lodash.com/>
+ * Lo-Dash 2.1.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm`
- * Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
+ * Copyright 2012-2013 The Dojo Foundation <https://dojofoundation.org/>
+ * Based on Underscore.js 1.5.2 <https://underscorejs.org/LICENSE>
  * Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <http://lodash.com/license>
+ * Available under MIT license <https://lodash.com/license>
  */
 var baseCreateCallback = require('lodash._basecreatecallback'),
     keys = require('lodash.keys'),
@@ -628,12 +628,12 @@ module.exports = assign;
 
 },{"lodash._basecreatecallback":4,"lodash._objecttypes":23,"lodash.keys":24}],4:[function(require,module,exports){
 /**
- * Lo-Dash 2.1.0 (Custom Build) <http://lodash.com/>
+ * Lo-Dash 2.1.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm`
- * Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
+ * Copyright 2012-2013 The Dojo Foundation <https://dojofoundation.org/>
+ * Based on Underscore.js 1.5.2 <https://underscorejs.org/LICENSE>
  * Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <http://lodash.com/license>
+ * Available under MIT license <https://lodash.com/license>
  */
 var bind = require('lodash.bind'),
     identity = require('lodash.identity'),
@@ -704,12 +704,12 @@ module.exports = baseCreateCallback;
 
 },{"lodash._setbinddata":5,"lodash.bind":13,"lodash.identity":20,"lodash.support":21}],5:[function(require,module,exports){
 /**
- * Lo-Dash 2.1.0 (Custom Build) <http://lodash.com/>
+ * Lo-Dash 2.1.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm`
- * Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
+ * Copyright 2012-2013 The Dojo Foundation <https://dojofoundation.org/>
+ * Based on Underscore.js 1.5.2 <https://underscorejs.org/LICENSE>
  * Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <http://lodash.com/license>
+ * Available under MIT license <https://lodash.com/license>
  */
 var getObject = require('lodash._getobject'),
     noop = require('lodash._noop'),
@@ -746,12 +746,12 @@ module.exports = setBindData;
 
 },{"lodash._getobject":6,"lodash._noop":8,"lodash._releaseobject":9,"lodash._renative":12}],6:[function(require,module,exports){
 /**
- * Lo-Dash 2.1.0 (Custom Build) <http://lodash.com/>
+ * Lo-Dash 2.1.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm`
- * Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
+ * Copyright 2012-2013 The Dojo Foundation <https://dojofoundation.org/>
+ * Based on Underscore.js 1.5.2 <https://underscorejs.org/LICENSE>
  * Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <http://lodash.com/license>
+ * Available under MIT license <https://lodash.com/license>
  */
 var objectPool = require('lodash._objectpool');
 
@@ -789,12 +789,12 @@ module.exports = getObject;
 
 },{"lodash._objectpool":7}],7:[function(require,module,exports){
 /**
- * Lo-Dash 2.1.0 (Custom Build) <http://lodash.com/>
+ * Lo-Dash 2.1.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm`
- * Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
+ * Copyright 2012-2013 The Dojo Foundation <https://dojofoundation.org/>
+ * Based on Underscore.js 1.5.2 <https://underscorejs.org/LICENSE>
  * Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <http://lodash.com/license>
+ * Available under MIT license <https://lodash.com/license>
  */
 
 /** Used to pool arrays and objects used internally */
@@ -804,12 +804,12 @@ module.exports = objectPool;
 
 },{}],8:[function(require,module,exports){
 /**
- * Lo-Dash 2.1.0 (Custom Build) <http://lodash.com/>
+ * Lo-Dash 2.1.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm`
- * Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
+ * Copyright 2012-2013 The Dojo Foundation <https://dojofoundation.org/>
+ * Based on Underscore.js 1.5.2 <https://underscorejs.org/LICENSE>
  * Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <http://lodash.com/license>
+ * Available under MIT license <https://lodash.com/license>
  */
 
 /**
@@ -825,12 +825,12 @@ module.exports = noop;
 
 },{}],9:[function(require,module,exports){
 /**
- * Lo-Dash 2.1.0 (Custom Build) <http://lodash.com/>
+ * Lo-Dash 2.1.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm`
- * Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
+ * Copyright 2012-2013 The Dojo Foundation <https://dojofoundation.org/>
+ * Based on Underscore.js 1.5.2 <https://underscorejs.org/LICENSE>
  * Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <http://lodash.com/license>
+ * Available under MIT license <https://lodash.com/license>
  */
 var maxPoolSize = require('lodash._maxpoolsize'),
     objectPool = require('lodash._objectpool');
@@ -856,12 +856,12 @@ module.exports = releaseObject;
 
 },{"lodash._maxpoolsize":10,"lodash._objectpool":11}],10:[function(require,module,exports){
 /**
- * Lo-Dash 2.1.0 (Custom Build) <http://lodash.com/>
+ * Lo-Dash 2.1.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm`
- * Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
+ * Copyright 2012-2013 The Dojo Foundation <https://dojofoundation.org/>
+ * Based on Underscore.js 1.5.2 <https://underscorejs.org/LICENSE>
  * Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <http://lodash.com/license>
+ * Available under MIT license <https://lodash.com/license>
  */
 
 /** Used as the max size of the `arrayPool` and `objectPool` */
@@ -873,12 +873,12 @@ module.exports = maxPoolSize;
 module.exports=require(7)
 },{}],12:[function(require,module,exports){
 /**
- * Lo-Dash 2.1.0 (Custom Build) <http://lodash.com/>
+ * Lo-Dash 2.1.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm`
- * Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
+ * Copyright 2012-2013 The Dojo Foundation <https://dojofoundation.org/>
+ * Based on Underscore.js 1.5.2 <https://underscorejs.org/LICENSE>
  * Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <http://lodash.com/license>
+ * Available under MIT license <https://lodash.com/license>
  */
 
 /** Used for native method references */
@@ -895,12 +895,12 @@ module.exports = reNative;
 
 },{}],13:[function(require,module,exports){
 /**
- * Lo-Dash 2.1.0 (Custom Build) <http://lodash.com/>
+ * Lo-Dash 2.1.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm`
- * Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
+ * Copyright 2012-2013 The Dojo Foundation <https://dojofoundation.org/>
+ * Based on Underscore.js 1.5.2 <https://underscorejs.org/LICENSE>
  * Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <http://lodash.com/license>
+ * Available under MIT license <https://lodash.com/license>
  */
 var createBound = require('lodash._createbound'),
     reNative = require('lodash._renative');
@@ -948,12 +948,12 @@ module.exports = bind;
 
 },{"lodash._createbound":14,"lodash._renative":19}],14:[function(require,module,exports){
 /**
- * Lo-Dash 2.1.0 (Custom Build) <http://lodash.com/>
+ * Lo-Dash 2.1.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm`
- * Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
+ * Copyright 2012-2013 The Dojo Foundation <https://dojofoundation.org/>
+ * Based on Underscore.js 1.5.2 <https://underscorejs.org/LICENSE>
  * Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <http://lodash.com/license>
+ * Available under MIT license <https://lodash.com/license>
  */
 var createObject = require('lodash._createobject'),
     isFunction = require('lodash.isfunction'),
@@ -1059,7 +1059,7 @@ function createBound(func, bitmask, partialArgs, partialRightArgs, thisArg, arit
   else {
     bound = function() {
       // `Function#bind` spec
-      // http://es5.github.io/#x15.3.4.5
+      // https://es5.github.io/#x15.3.4.5
       var args = arguments,
           thisBinding = isBind ? thisArg : this;
 
@@ -1084,7 +1084,7 @@ function createBound(func, bitmask, partialArgs, partialRightArgs, thisArg, arit
         thisBinding = createObject(func.prototype);
 
         // mimic the constructor's `return` behavior
-        // http://es5.github.io/#x13.2.2
+        // https://es5.github.io/#x13.2.2
         var result = func.apply(thisBinding, args);
         return isObject(result) ? result : thisBinding;
       }
@@ -1099,12 +1099,12 @@ module.exports = createBound;
 
 },{"lodash._createobject":15,"lodash._renative":19,"lodash._setbinddata":5,"lodash.isfunction":17,"lodash.isobject":18,"lodash.support":21}],15:[function(require,module,exports){
 /**
- * Lo-Dash 2.1.0 (Custom Build) <http://lodash.com/>
+ * Lo-Dash 2.1.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm`
- * Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
+ * Copyright 2012-2013 The Dojo Foundation <https://dojofoundation.org/>
+ * Based on Underscore.js 1.5.2 <https://underscorejs.org/LICENSE>
  * Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <http://lodash.com/license>
+ * Available under MIT license <https://lodash.com/license>
  */
 var isObject = require('lodash.isobject'),
     noop = require('lodash._noop'),
@@ -1133,12 +1133,12 @@ module.exports = createObject;
 module.exports=require(8)
 },{}],17:[function(require,module,exports){
 /**
- * Lo-Dash 2.1.0 (Custom Build) <http://lodash.com/>
+ * Lo-Dash 2.1.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm`
- * Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
+ * Copyright 2012-2013 The Dojo Foundation <https://dojofoundation.org/>
+ * Based on Underscore.js 1.5.2 <https://underscorejs.org/LICENSE>
  * Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <http://lodash.com/license>
+ * Available under MIT license <https://lodash.com/license>
  */
 
 /**
@@ -1162,12 +1162,12 @@ module.exports = isFunction;
 
 },{}],18:[function(require,module,exports){
 /**
- * Lo-Dash 2.1.0 (Custom Build) <http://lodash.com/>
+ * Lo-Dash 2.1.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm`
- * Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
+ * Copyright 2012-2013 The Dojo Foundation <https://dojofoundation.org/>
+ * Based on Underscore.js 1.5.2 <https://underscorejs.org/LICENSE>
  * Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <http://lodash.com/license>
+ * Available under MIT license <https://lodash.com/license>
  */
 var objectTypes = require('lodash._objecttypes');
 
@@ -1193,9 +1193,9 @@ var objectTypes = require('lodash._objecttypes');
  */
 function isObject(value) {
   // check if the value is the ECMAScript language type of Object
-  // http://es5.github.io/#x8
+  // https://es5.github.io/#x8
   // and avoid a V8 bug
-  // http://code.google.com/p/v8/issues/detail?id=2291
+  // https://code.google.com/p/v8/issues/detail?id=2291
   return !!(value && objectTypes[typeof value]);
 }
 
@@ -1205,12 +1205,12 @@ module.exports = isObject;
 module.exports=require(12)
 },{}],20:[function(require,module,exports){
 /**
- * Lo-Dash 2.1.0 (Custom Build) <http://lodash.com/>
+ * Lo-Dash 2.1.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm`
- * Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
+ * Copyright 2012-2013 The Dojo Foundation <https://dojofoundation.org/>
+ * Based on Underscore.js 1.5.2 <https://underscorejs.org/LICENSE>
  * Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <http://lodash.com/license>
+ * Available under MIT license <https://lodash.com/license>
  */
 
 /**
@@ -1235,12 +1235,12 @@ module.exports = identity;
 
 },{}],21:[function(require,module,exports){
 var global=typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {};/**
- * Lo-Dash 2.1.0 (Custom Build) <http://lodash.com/>
+ * Lo-Dash 2.1.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm`
- * Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
+ * Copyright 2012-2013 The Dojo Foundation <https://dojofoundation.org/>
+ * Based on Underscore.js 1.5.2 <https://underscorejs.org/LICENSE>
  * Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <http://lodash.com/license>
+ * Available under MIT license <https://lodash.com/license>
  */
 var reNative = require('lodash._renative');
 
@@ -1300,12 +1300,12 @@ module.exports = support;
 module.exports=require(12)
 },{}],23:[function(require,module,exports){
 /**
- * Lo-Dash 2.1.0 (Custom Build) <http://lodash.com/>
+ * Lo-Dash 2.1.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm`
- * Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
+ * Copyright 2012-2013 The Dojo Foundation <https://dojofoundation.org/>
+ * Based on Underscore.js 1.5.2 <https://underscorejs.org/LICENSE>
  * Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <http://lodash.com/license>
+ * Available under MIT license <https://lodash.com/license>
  */
 
 /** Used to determine if values are of the language type Object */
@@ -1322,12 +1322,12 @@ module.exports = objectTypes;
 
 },{}],24:[function(require,module,exports){
 /**
- * Lo-Dash 2.1.0 (Custom Build) <http://lodash.com/>
+ * Lo-Dash 2.1.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm`
- * Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
+ * Copyright 2012-2013 The Dojo Foundation <https://dojofoundation.org/>
+ * Based on Underscore.js 1.5.2 <https://underscorejs.org/LICENSE>
  * Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <http://lodash.com/license>
+ * Available under MIT license <https://lodash.com/license>
  */
 var isObject = require('lodash.isobject'),
     reNative = require('lodash._renative'),
@@ -1365,12 +1365,12 @@ module.exports = keys;
 module.exports=require(12)
 },{}],26:[function(require,module,exports){
 /**
- * Lo-Dash 2.1.0 (Custom Build) <http://lodash.com/>
+ * Lo-Dash 2.1.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize modern exports="npm" -o ./npm`
- * Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
+ * Copyright 2012-2013 The Dojo Foundation <https://dojofoundation.org/>
+ * Based on Underscore.js 1.5.2 <https://underscorejs.org/LICENSE>
  * Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <http://lodash.com/license>
+ * Available under MIT license <https://lodash.com/license>
  */
 var objectTypes = require('lodash._objecttypes');
 
@@ -1411,7 +1411,7 @@ var d3 = require('d3')
 module.exports.d3 = d3
 
 // Bar Chart
-// Adapted mostly from http://bl.ocks.org/mbostock/3885705
+// Adapted mostly from https://bl.ocks.org/mbostock/3885705
 // options = {units: "string", labels: "string", m: [60, 150, 30, 150], w: 800, h: 300, div: "#dogBar", xaxis: "cuddlability", hiColor: "#EE0097"}
 
 module.exports.d3BarChart = function(data, options) {
@@ -1637,8 +1637,8 @@ module.exports.d3PieChart = function(data, options) {
 }
 
 // Line Chart
-// Adapted from http://bl.ocks.org/1166403 and
-// http://www.d3noob.org/2013/01/adding-tooltips-to-d3js-graph.html
+// Adapted from https://bl.ocks.org/1166403 and
+// https://www.d3noob.org/2013/01/adding-tooltips-to-d3js-graph.html
 /// options = {units: "string", labels: "string", m: [80, 100, 120, 100], w: 800, h: 400, div: "#dogLine", yaxis: "cuddlability", hiColor: "#E4EB29"}
 module.exports.d3LineChart = function(data, options) {
  // format data into units and labels
@@ -2264,11 +2264,11 @@ d3 = function() {
     };
   }
   var d3_nsPrefix = {
-    svg: "http://www.w3.org/2000/svg",
-    xhtml: "http://www.w3.org/1999/xhtml",
-    xlink: "http://www.w3.org/1999/xlink",
-    xml: "http://www.w3.org/XML/1998/namespace",
-    xmlns: "http://www.w3.org/2000/xmlns/"
+    svg: "https://www.w3.org/2000/svg",
+    xhtml: "https://www.w3.org/1999/xhtml",
+    xlink: "https://www.w3.org/1999/xlink",
+    xml: "https://www.w3.org/XML/1998/namespace",
+    xmlns: "https://www.w3.org/2000/xmlns/"
   };
   d3.ns = {
     prefix: d3_nsPrefix,
@@ -10653,7 +10653,7 @@ module.exports.mostFrequent = function(data, category) {
     // returns array of arrays, in order
 }
 
-// thank you! http://james.padolsey.com/javascript/deep-copying-of-objects-and-arrays/
+// thank you! https://james.padolsey.com/javascript/deep-copying-of-objects-and-arrays/
 module.exports.deepCopy = function(obj) {
   if (Object.prototype.toString.call(obj) === '[object Array]') {
       var out = [], i = 0, len = obj.length;
@@ -10922,7 +10922,7 @@ module.exports.addMarkerLayer = function(geoJSON, map, template) {
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
 //
-//      http://www.apache.org/licenses/LICENSE-2.0
+//      https://www.apache.org/licenses/LICENSE-2.0
 //
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
@@ -11341,7 +11341,7 @@ URI.prototype.hasPath = function () {
 
 
 URI.prototype.getQuery = function () {
-  // From http://www.w3.org/Addressing/URL/4_URI_Recommentations.html
+  // From https://www.w3.org/Addressing/URL/4_URI_Recommentations.html
   // Within the query string, the plus sign is reserved as shorthand notation
   // for a space.
   return this.query_ && decodeURIComponent(this.query_).replace(/\+/g, ' ');
@@ -11413,7 +11413,7 @@ URI.prototype.checkParameterCache_ = function () {
       var k = -1;
       for (var i = 0; i < cgiParams.length; ++i) {
         var m = cgiParams[i].match(/^([^=]*)(?:=(.*))?$/);
-        // From http://www.w3.org/Addressing/URL/4_URI_Recommentations.html
+        // From https://www.w3.org/Addressing/URL/4_URI_Recommentations.html
         // Within the query string, the plus sign is reserved as shorthand
         // notation for a space.
         out[++k] = decodeURIComponent(m[1]).replace(/\+/g, ' ');
@@ -11552,7 +11552,7 @@ function nullIfAbsent(matchPart) {
 /**
  * a regular expression for breaking a URI into its component parts.
  *
- * <p>http://www.gbiv.com/protocols/uri/rfc/rfc3986.html#RFC2234 says
+ * <p>https://www.gbiv.com/protocols/uri/rfc/rfc3986.html#RFC2234 says
  * As the "first-match-wins" algorithm is identical to the "greedy"
  * disambiguation method used by POSIX regular expressions, it is natural and
  * commonplace to use a regular expression for parsing the potential five
@@ -11571,7 +11571,7 @@ function nullIfAbsent(matchPart) {
  * parenthesis). We refer to the value matched for subexpression <n> as $<n>.
  * For example, matching the above expression to
  * <pre>
- *     http://www.ics.uci.edu/pub/ietf/uri/#Related
+ *     https://www.ics.uci.edu/pub/ietf/uri/#Related
  * </pre>
  * results in the following subexpression matches:
  * <pre>
@@ -12290,7 +12290,7 @@ html4[ 'LOADERTYPES' ] = html4.LOADERTYPES;
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
 //
-//      http://www.apache.org/licenses/LICENSE-2.0
+//      https://www.apache.org/licenses/LICENSE-2.0
 //
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
@@ -12355,7 +12355,7 @@ var html = (function(html4) {
   // Patterns for types of entity/character reference names.
   var decimalEscapeRe = /^#(\d+)$/;
   var hexEscapeRe = /^#x([0-9A-Fa-f]+)$/;
-  // contains every entity per http://www.w3.org/TR/2011/WD-html5-20110113/named-character-references.html
+  // contains every entity per https://www.w3.org/TR/2011/WD-html5-20110113/named-character-references.html
   var safeEntityNameRe = /^[A-Za-z][A-za-z0-9]+$/;
   // Used as a hook to invoke the browser's entity parsing. <textarea> is used
   // because its content is parsed for entities but not tags.
@@ -12492,10 +12492,10 @@ var html = (function(html4) {
   }
 
   // TODO(felix8a): validate sanitizer regexs against the HTML5 grammar at
-  // http://www.whatwg.org/specs/web-apps/current-work/multipage/syntax.html
-  // http://www.whatwg.org/specs/web-apps/current-work/multipage/parsing.html
-  // http://www.whatwg.org/specs/web-apps/current-work/multipage/tokenization.html
-  // http://www.whatwg.org/specs/web-apps/current-work/multipage/tree-construction.html
+  // https://www.whatwg.org/specs/web-apps/current-work/multipage/syntax.html
+  // https://www.whatwg.org/specs/web-apps/current-work/multipage/parsing.html
+  // https://www.whatwg.org/specs/web-apps/current-work/multipage/tokenization.html
+  // https://www.whatwg.org/specs/web-apps/current-work/multipage/tree-construction.html
 
   // We initially split input so that potentially meaningful characters
   // like '<' and '>' are separate tokens, using a fast dumb process that
@@ -13433,7 +13433,7 @@ function xhr(url, callback, cors) {
     }
 
     // Both `onreadystatechange` and `onload` can fire. `onreadystatechange`
-    // has [been supported for longer](http://stackoverflow.com/a/9181508/229001).
+    // has [been supported for longer](https://stackoverflow.com/a/9181508/229001).
     if ('onload' in x) {
         x.onload = loaded;
     } else {
@@ -13477,7 +13477,7 @@ function xhr(url, callback, cors) {
 if (typeof module !== 'undefined') module.exports = xhr;
 
 },{}],38:[function(require,module,exports){
-/*! JSON v3.2.6 | http://bestiejs.github.io/json3 | Copyright 2012-2013, Kit Cambridge | http://kit.mit-license.org */
+/*! JSON v3.2.6 | https://bestiejs.github.io/json3 | Copyright 2012-2013, Kit Cambridge | https://kit.mit-license.org */
 ;(function (window) {
   // Convenience aliases.
   var getClass = {}.toString, isProperty, forEach, undef;
@@ -14341,7 +14341,7 @@ if (typeof module !== 'undefined') module.exports = xhr;
 
 },{}],39:[function(require,module,exports){
 /*
- Leaflet, a JavaScript library for mobile-friendly interactive maps. http://leafletjs.com
+ Leaflet, a JavaScript library for mobile-friendly interactive maps. https://leafletjs.com
  (c) 2010-2013, Vladimir Agafonkin
  (c) 2010-2011, CloudMade
 */
@@ -14498,7 +14498,7 @@ L.Util = {
 
 (function () {
 
-  // inspired by http://paulirish.com/2011/requestanimationframe-for-smart-animating/
+  // inspired by https://paulirish.com/2011/requestanimationframe-for-smart-animating/
 
   function getPrefixed(name) {
     var i, fn,
@@ -15520,7 +15520,7 @@ L.LatLng.prototype = {
             L.Util.formatNum(this.lng, precision) + ')';
   },
 
-  // Haversine distance formula, see http://en.wikipedia.org/wiki/Haversine_formula
+  // Haversine distance formula, see https://en.wikipedia.org/wiki/Haversine_formula
   // TODO move to projection code, LatLng shouldn't know about Earth
   distanceTo: function (other) { // (LatLng) -> Number
     other = L.latLng(other);
@@ -18822,7 +18822,7 @@ L.Map.include({
  * Extends L.Path with SVG-specific rendering code.
  */
 
-L.Path.SVG_NS = 'http://www.w3.org/2000/svg';
+L.Path.SVG_NS = 'https://www.w3.org/2000/svg';
 
 L.Browser.svg = !!(document.createElementNS && document.createElementNS(L.Path.SVG_NS, 'svg').createSVGRect);
 
@@ -19469,7 +19469,7 @@ L.LineUtil = {
     return this._sqClosestPointOnSegment(p, p1, p2);
   },
 
-  // Douglas-Peucker simplification, see http://en.wikipedia.org/wiki/Douglas-Peucker_algorithm
+  // Douglas-Peucker simplification, see https://en.wikipedia.org/wiki/Douglas-Peucker_algorithm
   _simplifyDP: function (points, sqTolerance) {
 
     var len = points.length,
@@ -22167,7 +22167,7 @@ L.control.zoom = function (options) {
 L.Control.Attribution = L.Control.extend({
   options: {
     position: 'bottomright',
-    prefix: '<a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>'
+    prefix: '<a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>'
   },
 
   initialize: function (options) {
@@ -22557,7 +22557,7 @@ L.Control.Layers = L.Control.extend({
     }
   },
 
-  // IE7 bugs out if you create a radio dynamically, so you have to do it this hacky way (see http://bit.ly/PqYLBe)
+  // IE7 bugs out if you create a radio dynamically, so you have to do it this hacky way (see https://bit.ly/PqYLBe)
   _createRadioElement: function (name, checked) {
 
     var radioHtml = '<input type="radio" class="leaflet-control-layers-selector" name="' + name + '"';
@@ -23207,7 +23207,7 @@ L.Map.include({
 },{}],40:[function(require,module,exports){
 /*!
  * mustache.js - Logic-less {{mustache}} templates with JavaScript
- * http://github.com/janl/mustache.js
+ * https://github.com/janl/mustache.js
  */
 
 /*global define: false*/
@@ -23765,7 +23765,7 @@ module.exports={
   "name": "mapbox.js",
   "description": "mapbox javascript api",
   "version": "1.3.1",
-  "homepage": "http://mapbox.com/",
+  "homepage": "https://mapbox.com/",
   "repository": {
     "type": "git",
     "url": "git://github.com/mapbox/mapbox.js.git"
@@ -23795,7 +23795,7 @@ module.exports={
   "engines": {
     "node": "*"
   },
-  "readme": "# mapbox.js\n\n[![Build Status](https://travis-ci.org/mapbox/mapbox.js.png?branch=v1)](https://travis-ci.org/mapbox/mapbox.js)\n\nThis is the MapBox Javascript API, version 1.x. It's built as a [Leaflet](http://leafletjs.com/)\nplugin. You can [read about its launch](http://mapbox.com/blog/mapbox-js-with-leaflet/).\n\n## [API](http://mapbox.com/mapbox.js/api/)\n\nManaged as Markdown in `API.md`, following the standards in `DOCUMENTING.md`\n\n## [Examples](http://mapbox.com/mapbox.js/example/v1.0.0/)\n\n## Building\n\n    git clone https://github.com/mapbox/mapbox.js.git\n    npm install\n    make\n\nThis project uses [browserify](https://github.com/substack/node-browserify) to combine\ndependencies and installs a local copy when you run `npm install`.\n`make` will build the project in `dist/`.\n\n### Tests\n\nTest with [phantomjs](http://phantomjs.org/):\n\n    npm test\n\nTo test in a browser, run a [local development server](https://gist.github.com/tmcw/4989751)\nand go to `/test`.\n\n### Version v0.x.x\n\n[Version v0.x.x can be accessed in the old master branch.](https://github.com/mapbox/mapbox.js/tree/master).\n",
+  "readme": "# mapbox.js\n\n[![Build Status](https://travis-ci.org/mapbox/mapbox.js.png?branch=v1)](https://travis-ci.org/mapbox/mapbox.js)\n\nThis is the MapBox Javascript API, version 1.x. It's built as a [Leaflet](https://leafletjs.com/)\nplugin. You can [read about its launch](https://mapbox.com/blog/mapbox-js-with-leaflet/).\n\n## [API](https://mapbox.com/mapbox.js/api/)\n\nManaged as Markdown in `API.md`, following the standards in `DOCUMENTING.md`\n\n## [Examples](https://mapbox.com/mapbox.js/example/v1.0.0/)\n\n## Building\n\n    git clone https://github.com/mapbox/mapbox.js.git\n    npm install\n    make\n\nThis project uses [browserify](https://github.com/substack/node-browserify) to combine\ndependencies and installs a local copy when you run `npm install`.\n`make` will build the project in `dist/`.\n\n### Tests\n\nTest with [phantomjs](https://phantomjs.org/):\n\n    npm test\n\nTo test in a browser, run a [local development server](https://gist.github.com/tmcw/4989751)\nand go to `/test`.\n\n### Version v0.x.x\n\n[Version v0.x.x can be accessed in the old master branch.](https://github.com/mapbox/mapbox.js/tree/master).\n",
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/mapbox/mapbox.js/issues"
@@ -23810,10 +23810,10 @@ module.exports={
 module.exports = {
 
     HTTP_URLS: [
-        'http://a.tiles.mapbox.com/v3/',
-        'http://b.tiles.mapbox.com/v3/',
-        'http://c.tiles.mapbox.com/v3/',
-        'http://d.tiles.mapbox.com/v3/'],
+        'https://a.tiles.mapbox.com/v3/',
+        'https://b.tiles.mapbox.com/v3/',
+        'https://c.tiles.mapbox.com/v3/',
+        'https://d.tiles.mapbox.com/v3/'],
 
     FORCE_HTTPS: false,
 
@@ -24742,7 +24742,7 @@ function icon(fp) {
 
 // a factory that provides markers for Leaflet from MapBox's
 // [simple-style specification](https://github.com/mapbox/simplestyle-spec)
-// and [Markers API](http://mapbox.com/developers/api/#markers).
+// and [Markers API](https://mapbox.com/developers/api/#markers).
 function style(f, latlon) {
     return L.marker(latlon, {
         icon: icon(f.properties),
@@ -24972,7 +24972,7 @@ var ShareControl = L.Control.extend({
         L.DomEvent.stop(e);
 
         var tilejson = this._tilejson || this._map._tilejson || {},
-            twitter = 'http://twitter.com/intent/tweet?status=' +
+            twitter = 'https://twitter.com/intent/tweet?status=' +
                 encodeURIComponent(tilejson.name + '\n' + (tilejson.webpage || window.location)),
             facebook = 'https://www.facebook.com/sharer.php?u=' +
                 encodeURIComponent(this.options.url || tilejson.webpage || window.location) +
@@ -25034,7 +25034,7 @@ var TileLayer = L.TileLayer.extend({
         format: 'png'
     },
 
-    // http://mapbox.com/developers/api/#image_quality
+    // https://mapbox.com/developers/api/#image_quality
     formats: [
         'png',
         // PNG

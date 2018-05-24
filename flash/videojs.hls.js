@@ -1213,7 +1213,7 @@ videojs.Hls.comparePlaylistResolution = function(left, right) {
  * @param path {string} a path part to combine with the base
  * @return {string} a URI that is equivalent to composing `base`
  * with `path`
- * @see http://stackoverflow.com/questions/470832/getting-an-absolute-url-from-a-relative-one-ie6-issue
+ * @see https://stackoverflow.com/questions/470832/getting-an-absolute-url-from-a-relative-one-ie6-issue
  */
 resolveUrl = videojs.Hls.resolveUrl = function(basePath, path) {
   // use the base element to get the browser to handle URI resolution
@@ -1308,7 +1308,7 @@ resolveUrl = videojs.Hls.resolveUrl = function(basePath, path) {
    * destination stream should provide a method `push` to receive the data
    * events as they arrive.
    * @param destination {stream} the stream that will receive all `data` events
-   * @see http://nodejs.org/api/stream.html#stream_readable_pipe_destination_options
+   * @see https://nodejs.org/api/stream.html#stream_readable_pipe_destination_options
    */
   Stream.prototype.pipe = function(destination) {
     this.on('data', function(data) {
@@ -2542,7 +2542,7 @@ window.videojs.Hls.AacStream = function() {
   'use strict';
   var
     // return a percent-encoded representation of the specified byte range
-    // @see http://en.wikipedia.org/wiki/Percent-encoding
+    // @see https://en.wikipedia.org/wiki/Percent-encoding
     percentEncode = function(bytes, start, end) {
       var i, result = '';
       for (i = start; i < end; i++) {
@@ -2710,7 +2710,7 @@ window.videojs.Hls.AacStream = function() {
       }
 
       // parse one or more ID3 frames
-      // http://id3.org/id3v2.3.0#ID3v2_frame_overview
+      // https://id3.org/id3v2.3.0#ID3v2_frame_overview
       do {
         // determine the number of bytes in this frame
         frameSize = (tag.data[frameStart + 4] << 24) |
@@ -2778,7 +2778,7 @@ window.videojs.Hls.AacStream = function() {
     self.metadataStream = new MetadataStream();
 
     // For information on the FLV format, see
-    // http://download.macromedia.com/f4v/video_file_format_spec_v10_1.pdf.
+    // https://download.macromedia.com/f4v/video_file_format_spec_v10_1.pdf.
     // Technically, this function returns the header and a metadata FLV tag
     // if duration is greater than zero
     // duration in seconds
@@ -3076,7 +3076,7 @@ window.videojs.Hls.AacStream = function() {
           if (ptsDtsIndicator & 0xC0) {
             // the PTS and DTS are not written out directly. For information on
             // how they are encoded, see
-            // http://dvd.sourceforge.net/dvdinfo/pes-hdr.html
+            // https://dvd.sourceforge.net/dvdinfo/pes-hdr.html
             pts = (data[offset + 0] & 0x0E) << 28
               | (data[offset + 1] & 0xFF) << 21
               | (data[offset + 2] & 0xFE) << 13
@@ -4661,7 +4661,7 @@ global.window.pkcs7 = {
  * Returns the subarray of a Uint8Array without PKCS#7 padding.
  * @param padded {Uint8Array} unencrypted bytes that have been padded
  * @return {Uint8Array} the unpadded bytes
- * @see http://tools.ietf.org/html/rfc5652
+ * @see https://tools.ietf.org/html/rfc5652
  */
 module.exports = function unpad(padded) {
   return padded.subarray(0, padded.byteLength - padded[padded.byteLength - 1]);
@@ -4858,8 +4858,8 @@ AES.prototype = {
  * use for the first round of CBC.
  * @return {Uint8Array} the decrypted bytes
  *
- * @see http://en.wikipedia.org/wiki/Advanced_Encryption_Standard
- * @see http://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Cipher_Block_Chaining_.28CBC.29
+ * @see https://en.wikipedia.org/wiki/Advanced_Encryption_Standard
+ * @see https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Cipher_Block_Chaining_.28CBC.29
  * @see https://tools.ietf.org/html/rfc2315
  */
 decrypt = function(encrypted, key, initVector) {

@@ -41,8 +41,8 @@ video = document.querySelector('video'),
 			player.logobrand({
 				//height: "32px",
 				//width: "32px",
-				image: "http://www.videojs.com/img/logo.png",
-				destination: "http://www.videojs.com/"
+				image: "https://www.videojs.com/img/logo.png",
+				destination: "https://www.videojs.com/"
 			});
 	
 	

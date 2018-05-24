@@ -280,7 +280,7 @@ videojs.Vlc.getEmbedCode = function(params, attributes) {
         attrsString = '';
 
     if(window.ActiveXObject) {
-        objTag = '<object classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921" codebase="http://download.videolan.org/pub/videolan/vlc/last/win32/axvlc.cab" ';
+        objTag = '<object classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921" codebase="https://download.videolan.org/pub/videolan/vlc/last/win32/axvlc.cab" ';
         
         attributes = videojs.util.mergeOptions({
             // Default to 100% width/height
@@ -302,7 +302,7 @@ videojs.Vlc.getEmbedCode = function(params, attributes) {
 
         return objTag + attrsString + '>' + paramsString + '</object>';
     } else {
-        objTag = '<embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org" ';
+        objTag = '<embed type="application/x-vlc-plugin" pluginspage="https://www.videolan.org" ';
 
         attributes = videojs.util.mergeOptions(params, attributes);
         // Create Attributes string

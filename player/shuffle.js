@@ -4,7 +4,7 @@
 //
 // Usage:
 //
-//   <script src=http://ccloudus.github.io/player/random.js></script>
+//   <script src=https://ccloudus.github.io/player/random.js></script>
 //
 //   Math.seedrandom('yipee'); Sets Math.random to a function that is
 //                             initialized using the given explicit seed.
@@ -18,7 +18,7 @@
 //                             Seeds using the given explicit seed mixed
 //                             together with accumulated entropy.
 //
-//   <script src="http://ccloudus.github.io/player/random.txt"></script>
+//   <script src="https://ccloudus.github.io/player/random.txt"></script>
 //                             Seeds using physical random bits downloaded
 //                             from random.org.
 //
@@ -190,7 +190,7 @@ function ARC4(key) {
     return r;
   };
   // For robust unpredictability discard an initial batch of values.
-  // See http://www.rsa.com/rsalabs/node.asp?id=2009
+  // See https://www.rsa.com/rsalabs/node.asp?id=2009
   me.g(width);
 }
 
